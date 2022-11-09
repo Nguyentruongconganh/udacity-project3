@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: anhntc-project3
-  AWS_PROFILE: default
-  AWS_REGION: us-east-1
-  POSTGRES_DB: project3
-  POSTGRES_HOST: database-1.cjsfzt9ycnpm.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: ___INSERT_AWS_BUCKET__
+  AWS_PROFILE: ___INSERT_AWS_PROFILE
+  AWS_REGION: ___INSERT_AWS_REGION
+  POSTGRES_DB: ___INSERT_POSTGRES_DB
+  POSTGRES_HOST: ___INSERT_POSTGRES_HOST
   URL: http://localhost:8100  
 metadata:
   name: env-config
